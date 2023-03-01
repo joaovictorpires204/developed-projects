@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "name": "Joao Victor",
+      "email": "joaovictor@gmail.com",
+      "password": "123456789",
+      "id": 1
+    },
+    {
+      "name": "Arnia LTDA",
+      "email": "arnialtda@gmail.com",
+      "password": "123456789",
+      "id": 2
+    }
+  ],
+  "tasks": [
+    {
+      "number": "2",
+      "description": "Teste 2",
+      "date": "2022-12-23",
+      "status": "Em andamento",
+      "id": 2
+    },
+    {
+      "number": "4",
+      "description": "Teste 4",
+      "date": "2022-12-15",
+      "status": "Pausada",
+      "id": 4
+    },
+    {
+      "number": "5",
+      "description": "Teste 5",
+      "date": "2022-12-29",
+      "status": "Em andamento",
+      "id": 5
+    },
+    {
+      "number": "6",
+      "description": "Teste 6",
+      "date": "2022-12-29",
+      "status": "Concluida",
+      "id": 6
+    },
+    {
+      "number": "7",
+      "description": "Teste 7",
+      "date": "2022-12-30",
+      "status": "Concluida",
+      "id": 7
+    },
+    {
+      "number": "1",
+      "description": "Teste 1",
+      "date": "2023-02-02",
+      "status": "Concluida",
+      "id": 8
+    },
+    {
+      "number": "8",
+      "description": "Teste 84",
+      "date": "2022-11-10",
+      "status": "Concluida",
+      "id": 9
+    },
+    {
+      "number": "9",
+      "description": "Teste 9",
+      "date": "2023-02-08",
+      "status": "Concluida",
+      "id": 10
+    }
+  ]
+}
