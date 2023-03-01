@@ -1,0 +1,11 @@
+.title-experience{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.experience-content{
+        width: 500px;
+        margin-right: 150px;
+        margin-bottom: 10px;
+}

@@ -1,0 +1,68 @@
+const movies = [
+    {
+        id: 1,
+        img: "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX900_.jpg",
+        title: "Avatar: The Way of Water",
+        director: "James Cameron",
+        score: "IMDb: 7.8/10",
+        sinopsys: "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+    },
+    {
+        id: 2,
+        img: "https://m.media-amazon.com/images/M/MV5BNjMyMDBjMGUtNDUzZi00N2MwLTg1MjItZTk2MDE1OTZmNTYxXkEyXkFqcGdeQXVyMTQ5NjA0NDM0._V1_FMjpg_UX760_.jpg",
+        title: "Puss in Boots: The Last Wish",
+        director: "Joel Crawford andJanuel Mercado",
+        score: "IMDb: 7.8/10",
+        sinopsys: "When Puss in Boots discovers that his passion for adventure has taken its toll and he has burned through eight of his nine lives, he launches an epic journey to restore them by finding the mythical Last Wish.",
+    },
+    {
+        id: 3,
+        img: "https://m.media-amazon.com/images/M/MV5BM2Q3ZTU1NjMtNjYwZS00MGI4LThjYjMtOTIwYjBhOTBmMGE3XkEyXkFqcGdeQXVyNjM0MTI4Mw@@._V1_FMjpg_UX1123_.jpg",
+        title: "The Menu",
+        director: "Mark Mylod",
+        score: "IMDb: 7.2/10",
+        sinopsys: "A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
+    },
+    {
+        id: 4,
+        img: "https://m.media-amazon.com/images/M/MV5BNGI3MWYwYjItNzZhYi00ZWIzLTkyMzYtN2JmNjg3ODg1NTg4XkEyXkFqcGdeQXVyMTMwMDA5ODU3._V1_FMjpg_UY720_.jpg",
+        title: "Fall",
+        director: "Scott Mann",
+        score: "IMDb: 6.4/10",
+        sinopsys: "Best friends Becky and Hunter find themselves at the top of a 2,000-foot radio tower.",
+    },
+    {
+        id:5,
+        img: "https://m.media-amazon.com/images/M/MV5BMzFkMWUzM2ItZWFjMi00NDY0LTk2MDMtZDhkMDE2MjRlYmZlXkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_FMjpg_UX975_.jpg",
+        title: "Don't Worry Darling",
+        director: "Olivia Wilde",
+        score: "IMDb: 6.2/10",
+        sinopsys: "A 1950s housewife living with her husband in a utopian experimental community begins to worry that his glamorous company could be hiding disturbing secrets.",
+    },
+    {
+        id: 6,
+        img: "https://m.media-amazon.com/images/M/MV5BYzIzYmJlYTYtNGNiYy00N2EwLTk4ZjItMGYyZTJiOTVkM2RlXkEyXkFqcGdeQXVyODY1NDk1NjE@._V1_FMjpg_UX1000_.jpg",
+        title: "Green Book",
+        director: "Peter Farrelly",
+        score: "IMDb: 7.8/10",
+        sinopsys: "A working-class Italian-American bouncer becomes the driver for an African-American classical pianist on a tour of venues through the 1960s American South.",
+    },
+    {
+        id: 7,
+        img: "https://m.media-amazon.com/images/M/MV5BYmZlZDZkZjYtNzE5Mi00ODFhLTk2OTgtZWVmODBiZTI4NGFiXkEyXkFqcGdeQXVyMTE5MTg5NDIw._V1_FMjpg_UY720_.jpg",
+        title: "Glass Onion",
+        director: "Rian Johnson",
+        score: "IMDb: 7.2/10",
+        sinopsys: "Famed Southern detective Benoit Blanc travels to Greece for his latest case.",
+    },
+    {
+        id: 8,
+        img: "https://m.media-amazon.com/images/M/MV5BMDk4MTdhYzEtODk3OS00ZDBjLWFhNTQtMDI2ODdjNzQzZTA3XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_FMjpg_UY759_.jpg",
+        title: "M3GAN",
+        director: "Gerard Johnstone",
+        score: "IMDb: 6.5/10",
+        sinopsys: "A robotics engineer at a toy company builds a life-like doll that begins to take on a life of its own.",
+    },
+]
+
+export default  movies

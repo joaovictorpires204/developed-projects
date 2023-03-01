@@ -1,0 +1,48 @@
+.banner {
+    display: flex;
+    background-color: #6950A1;
+    width: 90%;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+.movie-photo-banner {
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.banner-movie-header {
+    display: flex;
+}
+
+.banner-movie-content {
+    width: 1000px;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.movie-title{
+    font-size: 30px;
+}
+
+.movie-director{
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+.movie-score{
+    margin-top: 40px;
+}
+
+.movie-sinopsys{
+    width: 800px;
+    margin-top: 40px;
+}

@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 320px;
+    margin-top: 30px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.box-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #445FF6;
+    width: 32px;
+    height: 32px;
+    margin-left: px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.ico {
+    width: 20px;
+    height: 20px;
+}

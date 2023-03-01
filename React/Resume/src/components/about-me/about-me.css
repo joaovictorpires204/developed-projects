@@ -1,0 +1,23 @@
+.container{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.title-about-me{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bar{
+    background-color: #445FF6;
+    width: 180px;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.text-about-me{
+width: 1000px;
+}

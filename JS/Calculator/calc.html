@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="content">
+        <div class="card">
+            <table>
+                <h2>Calculadora</h2>
+                <div id="display"></div>
+                <tr>
+                    <td><button onclick="clearDisplay()">C</button></td>
+                    <td><button onclick="deleteLastNum()">&lt;</button></td>
+                    <td><button onclick="insertDisplay('/')">/</button></td>
+                    <td><button onclick="insertDisplay('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insertDisplay('7')">7</button></td>
+                    <td><button onclick="insertDisplay('8')">8</button></td>
+                    <td><button onclick="insertDisplay('9')">9</button></td>
+                    <td><button onclick="insertDisplay('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insertDisplay('4')">4</button></td>
+                    <td><button onclick="insertDisplay('5')">5</button></td>
+                    <td><button onclick="insertDisplay('6')">6</button></td>
+                    <td><button onclick="insertDisplay('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insertDisplay('1')">1</button></td>
+                    <td><button onclick="insertDisplay('2')">2</button></td>
+                    <td><button onclick="insertDisplay('3')">3</button></td>
+                    <td rowspan="2"><button style="height: 94px;" onclick="calcNum()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button style="width: 102px;" onclick="insertDisplay('0')">0</button></td>
+                    <td><button onclick="insertDisplay('.')">.</button></td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function insertDisplay(num) {
+            const number = document.getElementById('display').innerHTML
+            document.getElementById('display').innerHTML = number + num
+        }
+
+        function clearDisplay() {
+            document.getElementById('display').innerHTML = ''
+        }
+
+        function deleteLastNum() {
+            const numbers = document.getElementById('display').innerHTML
+            document.getElementById('display').innerHTML = numbers.substring(0, numbers.length -1)
+        }
+
+        function calcNum(){
+            const resultado = document.getElementById('display').innerHTML
+            if(resultado){
+                document.getElementById('display').innerHTML = eval(resultado)
+            }else{
+document.getElementById('display').innerHTML = 'Digite...'
+            }
+        }
+    </script>
+
+</body>
+
+</html>
